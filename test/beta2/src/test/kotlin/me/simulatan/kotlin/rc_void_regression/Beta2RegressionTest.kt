@@ -2,7 +2,7 @@ package me.simulatan.kotlin.rc_void_regression
 
 import org.junit.jupiter.api.Test
 
-class RegressionTest {
+class Beta2RegressionTest {
 	val map: Map<Any, Any> = mapOf(
 		String::class to "Hello, World!"
 	)

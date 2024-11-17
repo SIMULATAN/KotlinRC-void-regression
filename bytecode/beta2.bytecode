@@ -1,0 +1,35 @@
+  public final static synthetic getKotlinDefaultJava(Ljava/util/Map;)Ljava/lang/Object;
+   L0
+    ALOAD 0
+    LDC "<this>"
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.checkNotNullParameter (Ljava/lang/Object;Ljava/lang/String;)V
+    ICONST_0
+    ISTORE 1
+   L1
+    LINENUMBER 10 L1
+    ALOAD 0
+    ICONST_4
+    LDC "T"
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.reifiedOperationMarker (ILjava/lang/String;)V
+    LDC Ljava/lang/Object;.class
+    INVOKESTATIC kotlin/jvm/internal/Reflection.getOrCreateKotlinClass (Ljava/lang/Class;)Lkotlin/reflect/KClass;
+    ACONST_NULL
+    INVOKESTATIC me/simulatan/kotlin/rc_void_regression/MapUtilsKt.getOrDefault (Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    DUP
+    IFNONNULL L2
+    POP
+    ALOAD 0
+    ICONST_4
+    LDC "T"
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.reifiedOperationMarker (ILjava/lang/String;)V
+    LDC Ljava/lang/Object;.class
+    ACONST_NULL
+    INVOKESTATIC me/simulatan/kotlin/rc_void_regression/MapUtilsKt.getOrDefault (Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+   L2
+   FRAME FULL [java/util/Map I] [java/lang/Object]
+    ARETURN
+   L3
+    LOCALVARIABLE $i$f$getKotlinDefaultJava I L1 L3 1
+    LOCALVARIABLE $this$getKotlinDefaultJava Ljava/util/Map; L0 L3 0
+    MAXSTACK = 3
+    MAXLOCALS = 2

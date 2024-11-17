@@ -1,0 +1,12 @@
+diff --git a/beta2.bytecode b/rc.bytecode
+index 5731c4a..42e1de0 100644
+--- a/beta2.bytecode
++++ b/rc.bytecode
+@@ -15,6 +15,7 @@
+     INVOKESTATIC kotlin/jvm/internal/Reflection.getOrCreateKotlinClass (Ljava/lang/Class;)Lkotlin/reflect/KClass;
+     ACONST_NULL
+     INVOKESTATIC me/simulatan/kotlin/rc_void_regression/MapUtilsKt.getOrDefault (Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
++    CHECKCAST java/lang/Void
+     DUP
+     IFNONNULL L2
+     POP
